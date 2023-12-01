@@ -35,7 +35,7 @@ public fun send<UA>(
 ): (u64, Coin<AptosCoin>, Coin<ZRO>)
 ```
 
-You can send any message (`payload`) to any address on any chain and pay fee with `AptosCoin`. So far we only support `AptosCoin` as fee.
+You can send any message (`payload`) to any address on any chain and pay fee with `AptosCoin`. Currently, we only support AptosCoin as a fee.
 `ZRO` coin will be supported to pay the protocol fee in the future.
 
 The `msglib_params` is for passing parameters to the message libraries. So far, it is not used and can be empty.
